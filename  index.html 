@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>唐诗三百首草书字帖</title>
+    <style>
+        body {
+            font-family: 'KaiTi', 'STKaiti', serif; /* 设置楷体，更有古风 */
+            background-color: #f5f5dc; /* 米黄色背景，像宣纸 */
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.2em;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .poem {
+            margin-top: 40px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+        .poem h2 {
+            text-align: center;
+            font-size: 1.8em;
+        }
+        .poem p {
+            text-align: center;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>唐诗三百首草书字帖</h1>
+        
+        <div class="poem">
+            <h2>静夜思</h2>
+            <p>李白</p>
+            <p>床前明月光，<br>疑是地上霜。<br>举头望明月，<br>低头思故乡。</p>
+        </div>
+    </div>
+</body>
+</html>
